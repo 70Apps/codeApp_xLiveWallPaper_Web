@@ -13,10 +13,24 @@ Wanna level-up your wallpaper game without dropping a dime? Just shout us out on
 
 # How to hop on the hype train 🚂
 
+## 😊 easy steps
+
 1️⃣ Snap a screenshot of your fave live wallpaper, hit “Share” and tag @xLiveWallpaper on Threads.  
-   Pro-tip: drop a 🔥 emoji so we know you’re legit!  
+   > Pro-tip: drop a 🔥 emoji so we know you’re legit!  
+
 2️⃣ Kick back, sip your coffee, and let our tiny review elves do their thing (usually under 24 hrs).  
-3️⃣ Boom—check your inbox for a VIP code that unlocks every single premium pack. No cap. 🦄
+
+3️⃣ Boom—check your inbox for a VIP code that unlocks premium pack. No cap. 🦄
+
+## 🎁 How to use redeem code
+
+1️⃣ Open AppStore app.
+
+2️⃣ Go to "User Settings" -> "Redeem Gift Card or Code".
+
+3️⃣ Paste the redeem code into the input field.
+
+4️⃣ Tap "Redeem" to unlock premium features.
 
 # Freebies & swag 🤳
 
@@ -36,14 +50,35 @@ Wanna level-up your wallpaper game without dropping a dime? Just shout us out on
 <script>
     const share_post_url = "https://www.threads.net/intent/post?"
     const share_post_link = "{{site:app_link}}"
-    const share_texts = ["欸！看我分享的xLiveWallpaper，免费获取VIP码！", "免费获取VIP码，点击链接即可获取"]
+    const share_texts = [
+        "Turn your screen into a living masterpiece with xLiveWallpaper—grab it free!",
+        "Bored of static walls? xLiveWallpaper brings motion magic—download now!",
+        "Swipe, set, stun: xLiveWallpaper makes your phone the coolest in the room.",
+        "Free VIP vibes: xLiveWallpaper live wallpapers that pop—get yours today.",
+        "From dusk till dawn, your screen stays fresh with xLiveWallpaper—tap to try.",
+        "Unlock animated awesomeness—xLiveWallpaper is the ultimate wallpaper upgrade.",
+        "One tap, endless motion: xLiveWallpaper turns backgrounds into stories.",
+        "Why settle for dull? xLiveWallpaper serves HD live scenes on demand.",
+        "Gift your screen a pulse—download xLiveWallpaper and feel the difference.",
+        "Level-up lock & home screens with xLiveWallpaper’s premium live packs.",
+        "Zero cost, full wow: snag xLiveWallpaper and watch your wallpaper come alive.",
+        "Meet the app that makes friends ask, 'Whoa, how’d you do that?'—xLiveWallpaper.",
+        "Swipe right on dynamic walls—xLiveWallpaper is the glow-up you deserve.",
+        "Turn every unlock into a mini-movie with xLiveWallpaper’s curated collection.",
+        "From cozy fireplaces to cosmic waves, xLiveWallpaper has a scene for every mood.",
+        "No cap, just tap: xLiveWallpaper delivers crisp 4D live wallpapers daily.",
+        "Keep your vibe moving—xLiveWallpaper animates your screen without draining battery.",
+        "Join the live-wall revolution: xLiveWallpaper, where art meets motion.",
+        "Screenshots don’t do it justice—experience xLiveWallpaper live, free, now.",
+        "Your phone’s makeover starts here: xLiveWallpaper, instant VIP codes inside."
+    ]
     var share_link = ""
 function init(){
 // random select a text
 const share_text = share_texts[Math.floor(Math.random() * share_texts.length)]
 // add text to preview
 document.querySelector(".button-share-preview").textContent = share_text
-share_link = share_post_url + "text=" + encodeURIComponent(share_text) + "&url=" + encodeURIComponent(share_post_link)
+share_link = share_post_url + "text=" + encodeURIComponent(share_text) + " @xLiveWallpaper&url=" + encodeURIComponent(share_post_link)
 // add link to share button
 document.querySelector(".button-share-link").href = share_link
 }
