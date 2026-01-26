@@ -97,6 +97,15 @@
 
   .app-page-screenshot-section-image {
     width: 25%;
+
+    @include media-query($on-laptop) {
+    width: 35%;
+    }
+
+    @include media-query($on-palm) {
+    width: 65%;
+    }
+
     margin-bottom: calc($spacing-unit / 2);
     border-radius: $border-radius;
   }
