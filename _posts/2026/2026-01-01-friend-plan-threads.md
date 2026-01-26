@@ -79,10 +79,13 @@ const share_text = share_texts[Math.floor(Math.random() * share_texts.length)]
 // add text to preview
 document.querySelector(".button-share-preview").textContent = share_text
 share_link = share_post_url + "text=" + encodeURIComponent(share_text) + " @xLiveWallpaper&url=" + encodeURIComponent(share_post_link)
-// add link to share button
-document.querySelector(".button-share-link").href = share_link
 }
 init()
+// add event listener to share button
+document.querySelector(".button-share-link").addEventListener("click", function(){
+    window.open(share_link, "_blank")
+})
+
 // add event listener to random share button
 document.querySelector(".button-share-random").addEventListener("click", function(){
     init()
