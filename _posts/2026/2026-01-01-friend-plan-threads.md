@@ -47,6 +47,8 @@ Wanna level-up your wallpaper game without dropping a dime? Just shout us out on
 <a href="javascript:return false;" class="button-share-random">Random Share</a>
  </div>
 
+**Strongly recommend to upload your app screen shot to Threads and tag @xLiveWallpaper to get free VIP code.**
+
 <script>
     const share_post_url = "https://www.threads.net/intent/post?"
     const share_post_link = "{{site:app_link}}"
@@ -78,7 +80,7 @@ function init(){
 const share_text = share_texts[Math.floor(Math.random() * share_texts.length)]
 // add text to preview
 document.querySelector(".button-share-preview").textContent = share_text
-share_link = share_post_url + "text=" + encodeURIComponent(share_text) + " @xLiveWallpaper&url=" + encodeURIComponent(share_post_link)
+share_link = share_post_url + "text=" + encodeURIComponent(share_text) + "\n@xlivewallpaper\n&url=" + encodeURIComponent(share_post_link)
 }
 init()
 // add event listener to share button
