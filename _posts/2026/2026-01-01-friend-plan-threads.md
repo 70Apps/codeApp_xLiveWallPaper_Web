@@ -80,7 +80,7 @@ function init(){
 const share_text = share_texts[Math.floor(Math.random() * share_texts.length)]
 // add text to preview
 document.querySelector(".button-share-preview").textContent = share_text
-share_link = share_post_url + "text=" + encodeURIComponent(share_text) + "\n@xlivewallpaper\n&url=" + encodeURIComponent(share_post_link)
+share_link = share_post_url + "text=" + encodeURIComponent(share_text) + "\n@xlivewallpaper\n search xlivewallpaper from app store&url=" + encodeURIComponent(share_post_link)
 }
 init()
 // add event listener to share button
