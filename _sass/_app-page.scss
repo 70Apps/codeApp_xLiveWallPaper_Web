@@ -1,36 +1,57 @@
 // app-page: hero, screen shot, description section, review section
 .app-page-hero-section {
-    position: relative;
   padding: $spacing-unit / 2 0;
   text-align: center;
-  height: 350px;
-  
+
+  @include media-query($on-pc) {
+    height: 350px;
+  }
+
+  @include media-query($on-laptop) {
+    height: 350px;
+  }
+
+  @include media-query($on-palm) {
+    height: auto;
+  }
+
   .app-page-hero-section-content {
     max-width: $content-width;
     display: grid;
     grid-template-columns: 0.4fr 0.6fr;
     align-items: center;
+    margin: 0 auto;
+
+    @include media-query($on-palm) {
+      display: block;
+
+    }
   }
+
   .app-page-hero-section-content-image {
     width: 100%;
     height: 350px;
-    
+
   }
+
   .app-page-hero-section-content-text {
     width: 90%;
   }
+
   .app-page-hero-section-title {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: $spacing-unit;
   }
+
   .app-page-hero-section-description {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: calc($spacing-unit * 2);
   }
+
   .app-page-hero-section-button {
     display: inline-block;
     padding: calc($spacing-unit / 2) calc($spacing-unit * 2);
@@ -42,32 +63,38 @@
     border-radius: $border-radius;
     transition: all 0.3s ease-in-out;
   }
+
   .app-page-hero-section-button:hover {
     background-color: $brand-color-dark;
   }
 
 }
+
 .app-page-screenshot-section {
   padding: $spacing-unit * 2 0;
   background-color: $background-color;
   text-align: center;
+
   .app-page-screenshot-section-title {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: $spacing-unit;
   }
+
   .app-page-screenshow-section-image-slider {
     width: 90%;
     margin: 0 auto;
     overflow-x: auto;
   }
+
   .app-page-screenshot-section-image-container {
     display: flex;
     flex-wrap: nowrap;
-    gap:calc($spacing-unit / 2);
+    gap: calc($spacing-unit / 2);
     margin-bottom: calc($spacing-unit * 2);
   }
+
   .app-page-screenshot-section-image {
     width: 25%;
     margin-bottom: calc($spacing-unit / 2);
@@ -79,16 +106,19 @@
   padding: $spacing-unit * 2 0;
   background-color: $background-color-light-even;
   text-align: center;
+
   .app-page-description-section-content {
     max-width: $content-width;
     margin: 0 auto;
   }
+
   .app-page-description-section-title {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: $spacing-unit;
   }
+
   .app-page-description-section-description {
     font-size: 1.8rem;
     font-weight: 400;
@@ -96,38 +126,53 @@
     margin-bottom: calc($spacing-unit * 2);
   }
 }
+
 .app-page-review-section {
   padding: $spacing-unit * 2 0;
   background-color: $background-color-light-more;
   text-align: center;
+
   .app-page-review-section-content {
     max-width: $content-width;
     margin: 0 auto;
   }
+
   .app-page-review-section-title {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: $spacing-unit;
   }
+
   .app-page-review-section-description {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: calc($spacing-unit * 2);
   }
+
+  .app-page-review-section-review-slider {
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+
   .app-page-review-section-review-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: calc($spacing-unit * 2);
     text-align: left;
     align-items: stretch;
+
     @include media-query($on-pc) {
       grid-template-columns: repeat(4, 1fr);
     }
+
     @include media-query($on-laptop) {
       grid-template-columns: repeat(3, 1fr);
     }
+
     @include media-query($on-palm) {
       grid-template-columns: repeat(1, 1fr);
     }
@@ -143,7 +188,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 200px;
   }
+
   .app-page-review-section-review:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
@@ -156,17 +203,20 @@
     line-height: 1.6;
     margin: 0 0 calc($spacing-unit / 1.5);
   }
+
   .app-page-review-section-review-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: auto;
   }
+
   .app-page-review-section-review-name {
     color: $text-color-highlight;
     font-weight: 600;
     font-size: 0.8rem;
   }
+
   .app-page-review-section-review-rating {
     color: $brand-color-light;
     font-weight: 600;
@@ -175,6 +225,7 @@
     padding: 2px 8px;
     border-radius: $border-radius;
   }
+
   .app-page-review-section-reviewer {
     font-size: 0.8rem;
     font-weight: 400;
@@ -182,16 +233,20 @@
     margin-bottom: calc($spacing-unit * 2);
   }
 }
+
 .app-page-review-section-review {
   padding: calc($spacing-unit / 2);
 }
+
 .app-page-review-section-review-text {
   font-size: 0.8rem;
   line-height: 1.5;
 }
+
 .app-page-review-section-review-name {
   font-size: 0.8rem;
 }
+
 .app-page-review-section-review-rating {
   font-size: 0.8rem;
   padding: 1px 6px;
