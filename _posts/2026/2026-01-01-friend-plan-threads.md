@@ -6,39 +6,80 @@ description: Share our app on Threads to get free vip code
 keyword: xLiveWallpaper
 tags: [appstore]
 ---
-# Friend Plan Threads
-## 🎉 Snag Free VIP Like a Boss! 🎉
+# Threads xLiveWallpaper VIP Giveaway! Share & Get 1 Month FREE!
 
-Wanna level-up your wallpaper game without dropping a dime? Just shout us out on Threads (or any social hangout you love) and we’ll slide a shiny VIP redeem code straight into your DMs. Easy, breezy, totally free! 🚀
+## 🎉 About the Event 
 
-# How to hop on the hype train 🚂
+To thank our amazing users, we're launching a "Share & Reward" campaign! Now, simply make a post about us on Reddit or Threads following the rules below, and after approval, we'll send a 1-MONTH VIP REDEMPTION CODE directly to your DMs! 
 
-## 😊 easy steps
+Unlock all premium features instantly: 
 
-1️⃣ Snap a screenshot of your fave live wallpaper, hit “Share” and tag @xLiveWallpaper on Threads.  
-   > Pro-tip: drop a 🔥 emoji so we know you’re legit!  
+ * ✨ Unlimited video-to-live wallpaper & Live Photo creation
+ * ✨ Access the entire library of HD live wallpapers
+ * ✨ Exclusive animated charging lock screens for iPhone
+ * ✨ One-trip download & editing for videos from major social platforms
 
-2️⃣ Kick back, sip your coffee, and let our tiny review elves do their thing (usually under 24 hrs).  
 
-3️⃣ Boom—check your inbox for a VIP code that unlocks premium pack. No cap. 🦄
+
+## 📝 How to Participate? (Just 2 Steps)
+
+1. Copy the recommended text below, take a screenshot of your favorite wallpaper from within the xLiveWallpaper app, and make a post on Reddit or Threads. Crucial: You MUST @ mention us in your post (Use u/xLiveWallpaper on Reddit or @xLiveWallpaper on Threads).
+
+2. Wait for Review & Receive Your Reward Our team checks mentions daily. We will review your post within 24 hours. Once approved, we'll send the VIP code directly to you via Private Message (DM) on the platform you used!
+
+
+
+### 🖼️ Post Example (Please copy this text) 
+
+---
+Check out this awesome live wallpaper app: xLiveWallpaper! Easily turn videos into live wallpapers and Live Photos. It has a huge library of wallpapers, cool animated charging lock screens, and a built-in video downloader. Make your phone stand out!
+
+Download here: https://apps.apple.com/app/id6747997192
+
+@xLiveWallpaper #LiveWallpaper #xLiveWallpaper #FreeVIP #iOSApps
+
+---
+
+**Please remember to attach a screenshot of a wallpaper you like from inside the xLiveWallpaper app! ** 
+
+
+
+## ⚠️ Terms & Conditions
+
+
+Posts must be public and correctly @ mention the specified account to be eligible for review.
+
+Limited to one reward per user.
+
+Codes will be sent via platform DM within 24 hours of approval. Please check your message requests.
+
+Redemption codes expire 7 days after issuance. Please activate yours promptly in the app.
+
+Join now, share your creativity, and unlock the VIP experience! 🚀
+
+
+
+用户发帖文案：
+
+
+
 
 ## 🎁 How to use redeem code
 
-1️⃣ Open AppStore app.
-
-2️⃣ Go to "User Settings" -> "Redeem Gift Card or Code".
-
-3️⃣ Paste the redeem code into the input field.
-
-4️⃣ Tap "Redeem" to unlock premium features.
-
-# Freebies & swag 🤳
-
-## Download link (one tap, zero regrets)
-
 - [Apple App Store](https://apps.apple.com/app/apple-store/id6747997192?pt=611621&ct=xlivewallpaper&mt=8) 📱✨
 
-## Eye-candy Share Preview and Random Share Button
+1️⃣ Open AppStore app.
+
+2️⃣ Search "xLiveWallpaper" and Install it first.
+
+3️⃣ Go to AppStore "User Settings" -> "Redeem Gift Card or Code".
+
+4️⃣ Paste the redeem code into the input field.
+
+5️⃣ Tap "Redeem" to unlock premium features.
+
+
+## 🚀 Share Shortcut Form
 
 <div class="button-share">
 <div class="button-share-preview">
@@ -52,27 +93,22 @@ Wanna level-up your wallpaper game without dropping a dime? Just shout us out on
 <script>
     const share_post_url = "https://www.threads.net/intent/post?"
     const share_post_link = "{{site:app_link}}"
+    const share_post_master = "@xlivewallpaper"
+    const share_post_tags = "#LiveWallpaper #xLiveWallpaper #FreeVIP #iOSApps #PleasantSurprise #HiddenGem"
+
     const share_texts = [
-        "Turn your screen into a living masterpiece with xLiveWallpaper—grab it free!",
-        "Bored of static walls? xLiveWallpaper brings motion magic—download now!",
-        "Swipe, set, stun: xLiveWallpaper makes your phone the coolest in the room.",
-        "Free VIP vibes: xLiveWallpaper live wallpapers that pop—get yours today.",
-        "From dusk till dawn, your screen stays fresh with xLiveWallpaper—tap to try.",
-        "Unlock animated awesomeness—xLiveWallpaper is the ultimate wallpaper upgrade.",
-        "One tap, endless motion: xLiveWallpaper turns backgrounds into stories.",
-        "Why settle for dull? xLiveWallpaper serves HD live scenes on demand.",
-        "Gift your screen a pulse—download xLiveWallpaper and feel the difference.",
-        "Level-up lock & home screens with xLiveWallpaper’s premium live packs.",
-        "Zero cost, full wow: snag xLiveWallpaper and watch your wallpaper come alive.",
-        "Meet the app that makes friends ask, 'Whoa, how’d you do that?'—xLiveWallpaper.",
-        "Swipe right on dynamic walls—xLiveWallpaper is the glow-up you deserve.",
-        "Turn every unlock into a mini-movie with xLiveWallpaper’s curated collection.",
-        "From cozy fireplaces to cosmic waves, xLiveWallpaper has a scene for every mood.",
-        "No cap, just tap: xLiveWallpaper delivers crisp 4D live wallpapers daily.",
-        "Keep your vibe moving—xLiveWallpaper animates your screen without draining battery.",
-        "Join the live-wall revolution: xLiveWallpaper, where art meets motion.",
-        "Screenshots don’t do it justice—experience xLiveWallpaper live, free, now.",
-        "Your phone’s makeover starts here: xLiveWallpaper, instant VIP codes inside."
+        "Charging Effect Scene\nMy friends keep asking about the cool animation on my lock screen when charging—it's from xLiveWallpaper! I also made my live wallpaper by editing a travel video with it, keeping memories alive on my homescreen.",
+        "Music & Mood Scene\nI used xLiveWallpaper to turn my favorite MV clip into a lock screen wallpaper. It brightens my mood every time I wake my phone! It can even download and edit social media videos directly. Super handy.",
+        "Creator Efficiency Scene\nAs a content creator, I often use xLiveWallpaper to edit my work into Live Photos for sharing or into live wallpapers for personal use. Its downloader and editor work seamlessly—a true productivity tool.",
+        "Commute Time Scene\nDuring my daily commute, I record the passing scenery and turn it into custom live wallpapers with xLiveWallpaper. It makes my home screen a moving window, reminding me the world is always in motion.",
+        "Holiday Vibes Scene\nJust used xLiveWallpaper to create a snowy animated lock screen for Christmas! It maxes out the festive vibe, and all my friends are asking for the tutorial. The process was unbelievably simple.",
+        "Gift Idea Scene\nBirthday surprise for my girlfriend: I used xLiveWallpaper to turn a video of us into her phone's live wallpaper and Live Photo. She was so touched and called it the most thoughtful gift!",
+        "Strong Recommendation\nCan't help but rave about xLiveWallpaper! It might be the most worthwhile app I've downloaded this year. Insanely powerful features, and you can try everything from editing to the massive library for free. The devs are awesome!",
+        "Must-Have for Customization\nIf you love customizing your phone, you MUST NOT miss xLiveWallpaper! It makes creating live wallpapers effortless, yet the results are pro-level. I've already recommended it to all my friends!",
+        "5-Star Recommendation\n5 stars for xLiveWallpaper! Not only does it fulfill all my live wallpaper fantasies, but it also perfectly covers niche needs like Live Photo creation and video downloading. This is an app that truly understands its users!",
+        "Long-Term User Testimonial\nBeen using xLiveWallpaper for 3 months, and it's become an essential app on my phone. Fresh wallpapers all the time, and the charging lock screen amazes me every time. Sincere thanks for creating such a great app!",
+        "Comparison Winner\nTried many wallpaper apps, but the only one that stayed on my phone is xLiveWallpaper. It integrates the \"inspiration -> sourcing -> creation\" workflow so smoothly, with zero bloat. You know it's quality from the first use.",
+        "Feature Surprise\nDownloaded xLiveWallpaper just for live wallpapers, but its all-in-one \"download & edit\" feature completely won me over! Now my first thought when I see a fun video is \"make it a wallpaper.\" It changed my habit."
     ]
     var share_link = ""
 function init(){
@@ -80,7 +116,7 @@ function init(){
 const share_text = share_texts[Math.floor(Math.random() * share_texts.length)]
 // add text to preview
 document.querySelector(".button-share-preview").textContent = share_text
-share_link = share_post_url + "text=" + encodeURIComponent(share_text) + "\n@xlivewallpaper\n search xlivewallpaper from app store&url=" + encodeURIComponent(share_post_link)
+share_link = share_post_url + "text=" + encodeURIComponent(share_text + "\n" + share_post_master + "\nDownload: " + share_post_link + "\nDownload: " + share_post_tags) + "&url=" + encodeURIComponent(share_post_link)
 }
 init()
 // add event listener to share button
