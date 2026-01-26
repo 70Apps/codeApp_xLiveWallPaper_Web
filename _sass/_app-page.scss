@@ -1,11 +1,23 @@
 // app-page: hero, screen shot, description section, review section
 .app-page-hero-section {
-  padding: $spacing-unit * 2 0;
-  background-color: $background-color-light;
+    position: relative;
+  padding: $spacing-unit / 2 0;
   text-align: center;
+  height: 350px;
+  
   .app-page-hero-section-content {
     max-width: $content-width;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    align-items: center;
+  }
+  .app-page-hero-section-content-image {
+    width: 100%;
+    height: 350px;
+    
+  }
+  .app-page-hero-section-content-text {
+    width: 90%;
   }
   .app-page-hero-section-title {
     font-size: 3rem;
@@ -46,7 +58,7 @@
     margin-bottom: $spacing-unit;
   }
   .app-page-screenshow-section-image-slider {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     overflow-x: auto;
   }
@@ -57,7 +69,7 @@
     margin-bottom: calc($spacing-unit * 2);
   }
   .app-page-screenshot-section-image {
-    width: 30%;
+    width: 25%;
     margin-bottom: calc($spacing-unit / 2);
     border-radius: $border-radius;
   }

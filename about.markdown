@@ -41,7 +41,7 @@ Privacy Policy: https://70apps.com/blog/privacy/ </p>
 
 <style>
   .page-content:before {
-    background-image: url('/images/{{ page.title }}.jpg');
+    background-image: url('/images/{{ page.title }}.webp');
     display: block;
   }
 
