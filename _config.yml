@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   xLiveWallpaper is a live wallpaper iPhone App. You can set any image as your live wallpaper. It's free to use. And we update new live wallpaper every day, you can setup it as your daily wallpaper very easily.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url_root: "https://app.xlivewallpaper.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 me: xLiveWallpaper

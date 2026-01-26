@@ -1,6 +1,6 @@
 // app-page: hero, screen shot, description section, review section
 .app-page-hero-section {
-  padding: $spacing-unit / 2 0;
+  padding: calc($spacing-unit * 2) 0;
   text-align: center;
 
   @include media-query($on-pc) {
@@ -71,7 +71,7 @@
 }
 
 .app-page-screenshot-section {
-  padding: $spacing-unit * 2 0;
+  padding: calc($spacing-unit * 2) 0;
   background-color: $background-color;
   text-align: center;
 
@@ -103,7 +103,7 @@
 }
 
 .app-page-description-section {
-  padding: $spacing-unit * 2 0;
+  padding: calc($spacing-unit * 2) 0;
   background-color: $background-color-light-even;
   text-align: center;
 
@@ -128,7 +128,7 @@
 }
 
 .app-page-review-section {
-  padding: $spacing-unit * 2 0;
+  padding: calc($spacing-unit * 2) 0;
   background-color: $background-color-light-more;
   text-align: center;
 
