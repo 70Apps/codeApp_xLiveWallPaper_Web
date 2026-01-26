@@ -1,16 +1,16 @@
 ---
 layout: post
 category: Guide
-title: Friend Plan Threads
-description: Share our app on Threads to get free vip code
+title: Friend Plan Reddit
+description: Share our app on Reddit to get free vip code
 keyword: xLiveWallpaper
 tags: [appstore]
 ---
-# Threads xLiveWallpaper VIP Giveaway! Share & Get 1 Month FREE!
+# Reddit xLiveWallpaper VIP Giveaway! Share & Get 1 Month FREE!
 
 ## 🎉 About the Event 
 
-To thank our amazing users, we're launching a "Share & Reward" campaign! Now, simply make a post about us on Threads following the rules below, and after approval, we'll send a 1-MONTH VIP REDEMPTION CODE directly to your DMs! 
+To thank our amazing users, we're launching a "Share & Reward" campaign! Now, simply make a post about us on Reddit following the rules below, and after approval, we'll send a 1-MONTH VIP REDEMPTION CODE directly to your DMs! 
 
 Unlock all premium features instantly: 
 
@@ -23,7 +23,7 @@ Unlock all premium features instantly:
 
 ## 📝 How to Participate? (Just 2 Steps)
 
-1. Copy the recommended text below, take a screenshot of your favorite wallpaper from within the xLiveWallpaper app, and make a post on Reddit or Threads. Crucial: You MUST @ mention us in your post (Use @xLiveWallpaper on Threads).
+1. Copy the recommended text below, take a screenshot of your favorite wallpaper from within the xLiveWallpaper app, and make a post on Reddit. Crucial: You MUST @ mention us in your post (Use u/xLiveWallpaper on Reddit).
 
 2. Wait for Review & Receive Your Reward Our team checks mentions daily. We will review your post within 24 hours. Once approved, we'll send the VIP code directly to you via Private Message (DM) on the platform you used!
 
@@ -82,7 +82,7 @@ Join now, share your creativity, and unlock the VIP experience! 🚀
 <a href="javascript:return false;" class="button-share-random">Random Share</a>
  </div>
 
-**Strongly recommend to upload your app screen shot to Threads and tag @xLiveWallpaper to get free VIP code.**
+**Strongly recommend to upload your app screen shot to Reddit and tag u/xLiveWallpaper to get free VIP code.**
 
 <script>
     const share_post_url = "https://www.threads.net/intent/post?"
@@ -110,17 +110,23 @@ function init(){
 const share_text = share_texts[Math.floor(Math.random() * share_texts.length)]
 // add text to preview
 document.querySelector(".button-share-preview").textContent = share_text
-share_link = share_post_url + "text=" + encodeURIComponent(share_text + "\n" + share_post_master + "\nDownload: " + share_post_link + "\n" + share_post_tags) + "&url=" + encodeURIComponent(share_post_link)
+share_link = share_text + "\n" + share_post_master + "\nDownload: " + share_post_link + "\n" + share_post_tags
 }
 init()
 // add event listener to share button
 document.querySelector(".button-share-link").addEventListener("click", function(){
-    window.open(share_link, "_blank")
+    // window.open(share_link, "_blank")
+    // copy share_link to clipboard
+    navigator.clipboard.writeText(share_link).then(function() {
+        // show toast
+        document.querySelector(".button-share-link").textContent = "Copied to clipboard"
+    })
 })
 
 // add event listener to random share button
 document.querySelector(".button-share-random").addEventListener("click", function(){
     init()
+    document.querySelector(".button-share-link").textContent = "Share Now"
 })
 
 
