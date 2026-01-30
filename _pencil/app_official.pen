@@ -1,0 +1,1428 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "E2E0l",
+      "x": -447,
+      "y": -218,
+      "name": "xLiveWallpaper Landing Page",
+      "width": 1440,
+      "height": 3200,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "VX6Yp",
+          "name": "Navigation Bar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "rgba(255, 255, 255, 0.8)",
+          "padding": 40,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "7dGnn",
+              "name": "logo",
+              "fill": "#d4589b",
+              "content": "xLiveWallpaper",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "SU92j",
+              "name": "navDownload",
+              "width": 140,
+              "height": 40,
+              "fill": "#d4589b",
+              "cornerRadius": 20,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eK1Ir",
+                  "name": "navDownloadText",
+                  "fill": "#FFFFFF",
+                  "content": "Download",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GHXnt",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 800,
+          "fill": "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "un263",
+              "name": "heroContent",
+              "width": 600,
+              "layout": "vertical",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kdBUA",
+                  "name": "heroTitle",
+                  "fill": "#1d1d1f",
+                  "content": "Transform Videos into\nStunning Live Wallpapers",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 56,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "OHvZR",
+                  "name": "heroSubtitle",
+                  "fill": "#6e6e73",
+                  "content": "Daily curated dynamic wallpapers and powerful video conversion tools.\nDesigned exclusively for iPhone.",
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 24
+                },
+                {
+                  "type": "frame",
+                  "id": "OF8Gm",
+                  "name": "heroButtons",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "2YTV4",
+                      "name": "primaryBtn",
+                      "width": 295,
+                      "height": 55,
+                      "fill": "#d4589b",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d8jbM",
+                          "name": "primaryBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Download on App Store",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pcy88",
+                      "name": "secondaryBtn",
+                      "width": 160,
+                      "height": 56,
+                      "fill": "transparent",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5sLhf",
+                          "name": "secondaryBtnText",
+                          "fill": "#d4589b",
+                          "content": "Learn More",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aV1AV",
+          "name": "Features Section",
+          "width": "fill_container",
+          "height": 600,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xCk2s",
+              "name": "featuresTitle",
+              "fill": "#1d1d1f",
+              "content": "Powerful Features",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "Z6mgt",
+              "name": "featuresGrid",
+              "width": "fill_container",
+              "gap": 40,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cV40q",
+                  "name": "feature1",
+                  "width": 320,
+                  "height": 280,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OnOEC",
+                      "name": "feature1Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#d4589b",
+                      "cornerRadius": 30,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zy2Jf",
+                          "name": "feature1IconText",
+                          "content": "📱",
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "XbYdV",
+                      "name": "feature1Title",
+                      "fill": "#1d1d1f",
+                      "content": "Daily Wallpapers",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gc3Z3",
+                      "name": "feature1Desc",
+                      "fill": "#6e6e73",
+                      "content": "Discover new stunning dynamic wallpapers every day, carefully curated for your iPhone.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Cuwhh",
+                  "name": "feature2",
+                  "width": 320,
+                  "height": 280,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6yYam",
+                      "name": "feature2Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#d4589b",
+                      "cornerRadius": 30,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AhnHN",
+                          "name": "feature2IconText",
+                          "content": "🎬",
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "1m7J1",
+                      "name": "feature2Title",
+                      "fill": "#1d1d1f",
+                      "content": "Video Conversion",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GGFNK",
+                      "name": "feature2Desc",
+                      "fill": "#6e6e73",
+                      "content": "Transform any video into a beautiful live wallpaper with our advanced conversion technology.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uXuOd",
+                  "name": "feature3",
+                  "width": 320,
+                  "height": 280,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YRsV8",
+                      "name": "feature3Icon",
+                      "width": 60,
+                      "height": 60,
+                      "fill": "#d4589b",
+                      "cornerRadius": 30,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jPkxA",
+                          "name": "feature3IconText",
+                          "content": "🔗",
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CTq4z",
+                      "name": "feature3Title",
+                      "fill": "#1d1d1f",
+                      "content": "Threads Integration",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WqFbW",
+                      "name": "feature3Desc",
+                      "fill": "#6e6e73",
+                      "content": "Directly capture and convert videos from Threads into stunning live wallpapers.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eWpdc",
+          "name": "Screenshot Section",
+          "width": "fill_container",
+          "height": 800,
+          "fill": "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+          "layout": "vertical",
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "FoPU3",
+              "name": "screenshotTitle",
+              "fill": "#1d1d1f",
+              "content": "See xLiveWallpaper in Action",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "3MjjH",
+              "name": "screenshotContainer",
+              "width": "fill_container",
+              "gap": 40,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w7zcU",
+                  "name": "iphone1",
+                  "width": 280,
+                  "height": 560,
+                  "fill": "#1d1d1f",
+                  "cornerRadius": 40,
+                  "layout": "vertical",
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K3Wvj",
+                      "name": "screen1",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "linear-gradient(135deg, #d4589b 0%, #ff6b9d 100%)",
+                      "cornerRadius": 32
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TFanj",
+                  "name": "iphone2",
+                  "width": 280,
+                  "height": 560,
+                  "fill": "#1d1d1f",
+                  "cornerRadius": 40,
+                  "layout": "vertical",
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "43urA",
+                      "name": "screen2",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                      "cornerRadius": 32
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IciOs",
+                  "name": "iphone3",
+                  "width": 280,
+                  "height": 560,
+                  "fill": "#1d1d1f",
+                  "cornerRadius": 40,
+                  "layout": "vertical",
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Hgl1h",
+                      "name": "screen3",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+                      "cornerRadius": 32
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7vloq",
+          "name": "Review Section",
+          "width": "fill_container",
+          "height": 600,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tTOTx",
+              "name": "reviewTitle",
+              "fill": "#1d1d1f",
+              "content": "What Users Say",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "7j8ot",
+              "name": "reviewGrid",
+              "width": "fill_container",
+              "gap": 40,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z6dCy",
+                  "name": "review1",
+                  "width": 360,
+                  "height": 200,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vOjnl",
+                      "name": "review1Stars",
+                      "content": "⭐⭐⭐⭐⭐",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vioNS",
+                      "name": "review1Text",
+                      "fill": "#1d1d1f",
+                      "textGrowth": "fixed-width-height",
+                      "width": 308,
+                      "height": 84,
+                      "content": "\"Amazing app! The daily wallpapers are absolutely stunning and the video conversion feature works flawlessly.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "Fullt",
+                      "name": "review1Author",
+                      "fill": "#d4589b",
+                      "content": "- Sarah M.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ich6b",
+                  "name": "review2",
+                  "width": 360,
+                  "height": 200,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yg06D",
+                      "name": "review2Stars",
+                      "content": "⭐⭐⭐⭐⭐",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p9vHj",
+                      "name": "review2Text",
+                      "fill": "#1d1d1f",
+                      "textGrowth": "fixed-width-height",
+                      "width": 271,
+                      "height": 78,
+                      "content": "\"Love the Threads integration! I can now turn my favorite videos into live wallpapers instantly.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "JAHSr",
+                      "name": "review2Author",
+                      "fill": "#d4589b",
+                      "content": "- Mike T.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zLFCM",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "height": 400,
+          "fill": "linear-gradient(135deg, #d4589b 0%, #ff6b9d 100%)",
+          "layout": "vertical",
+          "padding": 80,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "7krQK",
+              "name": "ctaTitle",
+              "fill": "#FFFFFF",
+              "content": "Ready to Transform Your iPhone?",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "m0Vad",
+              "name": "ctaSubtitle",
+              "opacity": 0.9,
+              "fill": "#FFFFFF",
+              "content": "Download xLiveWallpaper now and start creating stunning live wallpapers",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20
+            },
+            {
+              "type": "frame",
+              "id": "8Xujx",
+              "name": "ctaButton",
+              "width": 280,
+              "height": 64,
+              "fill": "#FFFFFF",
+              "cornerRadius": 32,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aR4iY",
+                  "name": "ctaButtonText",
+                  "fill": "#d4589b",
+                  "content": "Download on App Store",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h7wAQ",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "#1d1d1f",
+          "layout": "vertical",
+          "padding": 40,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "PWxGw",
+              "name": "footerText",
+              "fill": "#6e6e73",
+              "content": "© 2024 xLiveWallpaper. Designed exclusively for iPhone.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "FJyZ9",
+              "name": "footerLink",
+              "fill": "#d4589b",
+              "content": "https://apps.apple.com/us/app/xlivewallpaper-video-to-live/id6747997192",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JAFhv",
+      "x": 1080,
+      "y": -218,
+      "name": "xLiveWallpaper Mobile Site",
+      "width": 390,
+      "height": 2400,
+      "fill": "#FFFFFF",
+      "cornerRadius": 20,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ux4ej",
+          "name": "Mobile Navigation",
+          "width": "fill_container",
+          "height": 60,
+          "fill": "rgba(255, 255, 255, 0.95)",
+          "padding": 20,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "MWdUf",
+              "name": "mobileLogo",
+              "fill": "#d4589b",
+              "content": "xLiveWallpaper",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "WhQEm",
+              "name": "menuIcon",
+              "width": 24,
+              "height": 24,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F71cG",
+                  "name": "menuLine1",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#d4589b",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ZWfKw",
+                  "name": "menuLine2",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#d4589b",
+                  "cornerRadius": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "TLqT7",
+                  "name": "menuLine3",
+                  "width": 20,
+                  "height": 2,
+                  "fill": "#d4589b",
+                  "cornerRadius": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HPPkX",
+          "name": "Mobile Hero",
+          "width": "fill_container",
+          "height": 500,
+          "fill": "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vnMp9",
+              "name": "mobileHeroTitle",
+              "rotation": -0.17598652455949573,
+              "fill": "#1d1d1f",
+              "textGrowth": "fixed-width-height",
+              "width": 275,
+              "height": 135,
+              "content": "Transform Videos into Stunning Live Wallpapers",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "BqJ4Q",
+              "name": "mobileHeroSubtitle",
+              "fill": "#6e6e73",
+              "textGrowth": "fixed-width-height",
+              "width": 280,
+              "height": 108,
+              "content": "Daily curated dynamic wallpapers and powerful video conversion tools for iPhone.",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "frame",
+              "id": "kWWcc",
+              "name": "mobileHeroPrimaryBtn",
+              "width": 280,
+              "height": 48,
+              "fill": "#d4589b",
+              "cornerRadius": 24,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j6LZF",
+                  "name": "mobileHeroPrimaryText",
+                  "fill": "#FFFFFF",
+                  "content": "Download on App Store",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MjfqX",
+              "name": "mobileHeroSecondaryBtn",
+              "width": 200,
+              "height": 44,
+              "fill": "transparent",
+              "cornerRadius": 22,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "I53xh",
+                  "name": "mobileHeroSecondaryText",
+                  "fill": "#d4589b",
+                  "content": "Learn More",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Jrc0F",
+          "name": "Mobile Features",
+          "width": "fill_container",
+          "height": 600,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "QGSAx",
+              "name": "mobileFeaturesTitle",
+              "fill": "#1d1d1f",
+              "content": "Powerful Features",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "MSlQR",
+              "name": "mobileFeaturesGrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6eJUb",
+                  "name": "mobileFeature1",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 12,
+                  "gap": 16,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mqUp1",
+                      "name": "mobileFeature1Icon",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "#d4589b",
+                      "cornerRadius": 25,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1eSfm",
+                          "name": "mobileFeature1IconText",
+                          "content": "📱",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Rvfr6",
+                      "name": "mobileFeature1Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vYVh5",
+                          "name": "mobileFeature1Title",
+                          "fill": "#1d1d1f",
+                          "content": "Daily Wallpapers",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hxK6j",
+                          "name": "mobileFeature1Desc",
+                          "fill": "#6e6e73",
+                          "textGrowth": "fixed-width-height",
+                          "width": 217,
+                          "height": 53,
+                          "content": "Discover new stunning dynamic wallpapers every day.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vS3wn",
+                  "name": "mobileFeature2",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 12,
+                  "gap": 16,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w0kPe",
+                      "name": "mobileFeature2Icon",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "#d4589b",
+                      "cornerRadius": 25,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "feKni",
+                          "name": "mobileFeature2IconText",
+                          "content": "🎬",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "29uoL",
+                      "name": "mobileFeature2Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Yc3HT",
+                          "name": "mobileFeature2Title",
+                          "fill": "#1d1d1f",
+                          "content": "Video Conversion",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1BNlg",
+                          "name": "mobileFeature2Desc",
+                          "fill": "#6e6e73",
+                          "textGrowth": "fixed-width-height",
+                          "width": 216,
+                          "height": 46,
+                          "content": "Transform any video into beautiful live wallpaper.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YuHF1",
+                  "name": "mobileFeature3",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 12,
+                  "gap": 16,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BAxOR",
+                      "name": "mobileFeature3Icon",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "#d4589b",
+                      "cornerRadius": 25,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9VQM8",
+                          "name": "mobileFeature3IconText",
+                          "content": "🔗",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U3N4R",
+                      "name": "mobileFeature3Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "roKBd",
+                          "name": "mobileFeature3Title",
+                          "fill": "#1d1d1f",
+                          "content": "Threads Integration",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GtYaA",
+                          "name": "mobileFeature3Desc",
+                          "fill": "#6e6e73",
+                          "textGrowth": "fixed-width-height",
+                          "width": 193,
+                          "height": 38,
+                          "content": "Capture videos from Threads instantly.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Pybcs",
+          "name": "Mobile Screenshots",
+          "width": "fill_container",
+          "height": 500,
+          "fill": "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "HyBxZ",
+              "name": "mobileScreenshotsTitle",
+              "fill": "#1d1d1f",
+              "textGrowth": "fixed-width-height",
+              "width": 274,
+              "height": 75,
+              "content": "See xLiveWallpaper in Action",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "SSwAi",
+              "name": "mobileScreenshotsContainer",
+              "width": "fill_container",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z3Xo5",
+                  "name": "mobileIphone1",
+                  "width": 90,
+                  "height": 180,
+                  "fill": "#1d1d1f",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pxJSB",
+                      "name": "mobileScreen1",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "linear-gradient(135deg, #d4589b 0%, #ff6b9d 100%)",
+                      "cornerRadius": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F2gR4",
+                  "name": "mobileIphone2",
+                  "width": 90,
+                  "height": 180,
+                  "fill": "#1d1d1f",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t7e0j",
+                      "name": "mobileScreen2",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                      "cornerRadius": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n4jQ2",
+                  "name": "mobileIphone3",
+                  "width": 90,
+                  "height": 180,
+                  "fill": "#1d1d1f",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TKWrG",
+                      "name": "mobileScreen3",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+                      "cornerRadius": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "T38Aa",
+          "name": "Mobile Reviews",
+          "width": "fill_container",
+          "height": 400,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "0gr1y",
+              "name": "mobileReviewsTitle",
+              "fill": "#1d1d1f",
+              "content": "What Users Say",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "oYlO9",
+              "name": "mobileReviewsGrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RgfQj",
+                  "name": "mobileReview1",
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ba8xv",
+                      "name": "mobileReview1Stars",
+                      "content": "⭐⭐⭐⭐⭐",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O8Fhe",
+                      "name": "mobileReview1Text",
+                      "fill": "#1d1d1f",
+                      "textGrowth": "fixed-width-height",
+                      "width": 285,
+                      "height": 61,
+                      "content": "\"Amazing app! The daily wallpapers are stunning and video conversion works perfectly.\"",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "fiJsk",
+                      "name": "mobileReview1Author",
+                      "fill": "#d4589b",
+                      "content": "- Sarah M.",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SjZ1f",
+                  "name": "mobileReview2",
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": "#f8f9fa",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ynxbb",
+                      "name": "mobileReview2Stars",
+                      "content": "⭐⭐⭐⭐⭐",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yeFh3",
+                      "name": "mobileReview2Text",
+                      "fill": "#1d1d1f",
+                      "textGrowth": "fixed-width-height",
+                      "width": 276,
+                      "height": 66,
+                      "content": "\"Love the Threads integration! I can turn my favorite videos into wallpapers instantly.\"",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "KbRxh",
+                      "name": "mobileReview2Author",
+                      "fill": "#d4589b",
+                      "content": "- Mike T.",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Vqpp1",
+          "name": "Mobile CTA",
+          "width": "fill_container",
+          "height": 300,
+          "fill": "linear-gradient(135deg, #d4589b 0%, #ff6b9d 100%)",
+          "layout": "vertical",
+          "padding": 24,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "jotLZ",
+              "name": "mobileCTATitle",
+              "fill": "#FFFFFF",
+              "content": "Ready to Transform Your iPhone?",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "lVQor",
+              "name": "mobileCTASubtitle",
+              "opacity": 0.9,
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width-height",
+              "width": 321,
+              "height": 76,
+              "content": "Download xLiveWallpaper now and start creating stunning live wallpapers",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "frame",
+              "id": "z4B92",
+              "name": "mobileCTAButton",
+              "width": 280,
+              "height": 56,
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "k4CDZ",
+                  "name": "mobileCTAButtonText",
+                  "fill": "#d4589b",
+                  "content": "Download on App Store",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BLhLm",
+          "name": "Mobile Footer",
+          "width": "fill_container",
+          "height": 100,
+          "fill": "#1d1d1f",
+          "layout": "vertical",
+          "padding": 20,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xLRXn",
+              "name": "mobileFooterText",
+              "fill": "#6e6e73",
+              "content": "© 2024 xLiveWallpaper\nDesigned exclusively for iPhone.",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12
+            },
+            {
+              "type": "text",
+              "id": "7TFkQ",
+              "name": "mobileFooterLink",
+              "fill": "#d4589b",
+              "content": "App Store Link",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
