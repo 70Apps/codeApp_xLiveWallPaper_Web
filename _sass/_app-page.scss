@@ -116,7 +116,6 @@
 
 .app-page-screenshot-section {
   padding: calc($spacing-unit * 2) 0 0;
-  -background-color: $background-color;
   text-align: center;
 
   .app-page-screenshot-section-title {
@@ -376,7 +375,6 @@
 
 .app-page-blog-section {
   padding: calc($spacing-unit * 2) 0 0;
-  -background-color: $background-color;
 
   .app-page-blog-section-title {
     font-size: 3rem;

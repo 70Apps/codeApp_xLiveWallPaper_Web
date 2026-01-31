@@ -446,7 +446,7 @@
     display: none;
     position: absolute;
     left: 0;
-    top: 57px;
+    top: 0;
     background-position: center;
     z-index: -2;
   }
@@ -459,15 +459,16 @@
     display: block;
     position: absolute;
     left: 0;
-    top: 57px;
+    top: 0;
     background-position: center;
     z-index: -1;
   }
 
+
   // Daily video background
   .page-content-video-bg {
     position: absolute;
-    top: 57px;
+    top: 0;
     left: 0;
     width: 100%;
     height: auto;
