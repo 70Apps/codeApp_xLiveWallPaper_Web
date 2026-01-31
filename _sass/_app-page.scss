@@ -89,7 +89,7 @@
 
 .app-page-screenshot-section {
   padding: calc($spacing-unit * 2) 0 0;
-  background-color: $background-color;
+  -background-color: $background-color;
   text-align: center;
 
   .app-page-screenshot-section-title {
@@ -310,7 +310,7 @@
 
 .app-page-cta-section {
   padding: calc($spacing-unit * 2) 0 0;
-  background-color: $background-color;
+  -background-color: $background-color;
   text-align: center;
 
   .app-page-cta-section-title {

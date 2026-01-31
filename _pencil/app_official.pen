@@ -99,7 +99,8 @@
                   "lineHeight": 1.4,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 24
+                  "fontSize": 24,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -243,7 +244,8 @@
                       "content": "Discover new stunning dynamic wallpapers every day, carefully curated for your iPhone.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -299,7 +301,8 @@
                       "content": "Transform any video into a beautiful live wallpaper with our advanced conversion technology.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -355,7 +358,8 @@
                       "content": "Directly capture and convert videos from Threads into stunning live wallpapers.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -528,7 +532,8 @@
                       "content": "\"Amazing app! The daily wallpapers are absolutely stunning and the video conversion feature works flawlessly.\"",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -574,7 +579,8 @@
                       "content": "\"Love the Threads integration! I can now turn my favorite videos into live wallpapers instantly.\"",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -608,7 +614,7 @@
               "type": "text",
               "id": "7krQK",
               "name": "ctaTitle",
-              "fill": "#FFFFFF",
+              "fill": "#aeaeaeff",
               "content": "Ready to Transform Your iPhone?",
               "textAlign": "center",
               "fontFamily": "Inter",
@@ -624,7 +630,8 @@
               "content": "Download xLiveWallpaper now and start creating stunning live wallpapers",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 20
+              "fontSize": 20,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -671,7 +678,8 @@
               "content": "© 2024 xLiveWallpaper. Designed exclusively for iPhone.",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -681,7 +689,8 @@
               "content": "https://apps.apple.com/us/app/xlivewallpaper-video-to-live/id6747997192",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 12
+              "fontSize": 12,
+              "fontWeight": "normal"
             }
           ]
         }
@@ -801,7 +810,8 @@
               "lineHeight": 1.4,
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 16
+              "fontSize": 16,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -944,7 +954,8 @@
                           "content": "Discover new stunning dynamic wallpapers every day.",
                           "lineHeight": 1.4,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1013,7 +1024,8 @@
                           "content": "Transform any video into beautiful live wallpaper.",
                           "lineHeight": 1.4,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1082,7 +1094,8 @@
                           "content": "Capture videos from Threads instantly.",
                           "lineHeight": 1.4,
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1259,7 +1272,8 @@
                       "content": "\"Amazing app! The daily wallpapers are stunning and video conversion works perfectly.\"",
                       "lineHeight": 1.4,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1305,7 +1319,8 @@
                       "content": "\"Love the Threads integration! I can turn my favorite videos into wallpapers instantly.\"",
                       "lineHeight": 1.4,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -1360,7 +1375,8 @@
               "lineHeight": 1.4,
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 16
+              "fontSize": 16,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1408,7 +1424,8 @@
               "lineHeight": 1.4,
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 12
+              "fontSize": 12,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -1418,7 +1435,8 @@
               "content": "App Store Link",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 12
+              "fontSize": 12,
+              "fontWeight": "normal"
             }
           ]
         }

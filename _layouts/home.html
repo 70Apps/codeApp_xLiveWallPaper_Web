@@ -216,6 +216,77 @@ Designed exclusively for iPhone.</p>
     setTimeout(function () { img.style.opacity = 1; }, 300 + 300 * i);
     i++;
   });
-  //  const h1 = document.querySelectorAll('h1.home-title-1');
-  //  h1[0].innerHTML = "xLiveWallpaper"
+
+  // Change .page-content video background everyday with format https://www.xlivewallpaper.com/images/2026/02/20260205.mov
+  function setDailyVideoBackground() {
+    const pageContent = document.querySelector('.page-content');
+    if (!pageContent) return;
+
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    
+    const videoUrl = `https://www.xlivewallpaper.com/images/${year}/${month}/${year}${month}${day}.mov`;
+    
+    // Remove existing video background if any
+    const existingVideo = pageContent.querySelector('.page-content-video-bg');
+    if (existingVideo) {
+      existingVideo.remove();
+    }
+    
+    // Create video element
+    const videoElement = document.createElement('video');
+    videoElement.className = 'page-content-video-bg';
+    videoElement.src = videoUrl;
+    videoElement.autoplay = true;
+    videoElement.muted = true;
+    videoElement.loop = true;
+    videoElement.playsInline = true;
+    
+    // Handle video load error - fallback to a default video or hide
+    videoElement.onerror = function() {
+      console.log('Daily video not found, trying fallback...');
+      // Try previous day as fallback
+      const yesterday = new Date(today);
+      yesterday.setDate(yesterday.getDate() - 1);
+      const fallbackYear = yesterday.getFullYear();
+      const fallbackMonth = String(yesterday.getMonth() + 1).padStart(2, '0');
+      const fallbackDay = String(yesterday.getDate()).padStart(2, '0');
+      const fallbackUrl = `https://www.xlivewallpaper.com/images/${fallbackYear}/${fallbackMonth}/${fallbackYear}${fallbackMonth}${fallbackDay}.mov`;
+      
+      videoElement.src = fallbackUrl;
+      videoElement.onerror = function() {
+        // If fallback also fails, try a generic fallback
+        const genericFallback = 'https://www.xlivewallpaper.com/images/2026/01/20260101.mov';
+        videoElement.src = genericFallback;
+        videoElement.playbackRate = 0.5;
+        videoElement.onerror = function() {
+          // If all fails, hide the video
+          videoElement.style.display = 'none';
+          console.log('No video background available');
+        };
+      };
+    };
+    
+    // Handle successful video load
+    videoElement.onloadeddata = function() {
+      console.log(`Daily video background loaded successfully: ${videoUrl}`);
+    };
+    
+    // Insert video as first child of page-content
+    pageContent.insertBefore(videoElement, pageContent.firstChild);
+    
+    console.log(`Daily video background set: ${videoUrl}`);
+  }
+
+  // Set video background when page loads
+  document.addEventListener('DOMContentLoaded', setDailyVideoBackground);
+  
+  // Also set it immediately if DOM is already loaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setDailyVideoBackground);
+  } else {
+    setDailyVideoBackground();
+  }
 </script>

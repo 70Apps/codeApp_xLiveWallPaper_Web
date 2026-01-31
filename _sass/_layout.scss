@@ -103,8 +103,8 @@
  * Site footer
  */
 .site-footer {
-  -background-color: $background-color-dark;
-  padding: $spacing-unit 0 $spacing-unit*3;
+  background-color: $background-color-dark;
+  padding:  calc($spacing-unit / 2);
 }
 
 .site-footer > .wrapper {
@@ -432,6 +432,11 @@
 
 // user define post
 @media screen and (min-width: 600px) {
+  .page-content {
+    position: relative;
+    overflow: hidden;
+  }
+
   .page-content:before {
     content: "";
     width: 100%;
@@ -450,13 +455,25 @@
     content: "";
     width: 100%;
     height: 360px;
-    background-image: linear-gradient(rgba(0 ,0, 0,0.4), rgba(0 ,0, 0,0.8));
-    display: none;
+    background-image: linear-gradient(rgba(0 ,0, 0,0.3), rgba(0 ,0, 0,0));
+    display: block;
     position: absolute;
     left: 0;
     top: 57px;
     background-position: center;
     z-index: -1;
+  }
+
+  // Daily video background
+  .page-content-video-bg {
+    position: absolute;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -3;
+    object-fit: cover;
+    opacity: 0.25;
   }
 
   .post-header {
@@ -473,6 +490,37 @@
     img {
       display: none;
     }
+  }
+}
+
+// Mobile video background
+@media screen and (max-width: 599px) {
+  .page-content {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .page-content-video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -3;
+    object-fit: cover;
+    opacity: 0.25;
+  }
+
+  .page-content:after {
+    content: "";
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0 ,0, 0,0.3), rgba(0 ,0, 0,0));
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
   }
 }
 
