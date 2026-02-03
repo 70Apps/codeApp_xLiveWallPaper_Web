@@ -15,9 +15,10 @@
   @include media-query($on-palm) {
     background-color: transparent;
   }
-  :visited {
+}
+
+.app-header-link-button:visited {
   color: #fff;
-  }
 }
 
 .app-page-hero-section {
